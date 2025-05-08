@@ -1,0 +1,144 @@
+body{
+    margin:0%;
+    padding:0%;
+    font-family: "Winky Sans", sans-serif;
+    font-style: bold;
+    background-color: rgb(186, 119, 250);
+  }
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1{
+    color: rgb(75, 3, 39);
+    font-size: 6rem;
+}
+.hero img{
+    width: 200px;
+    height: 200px;
+ 
+}
+.navbar{
+    display: flex;
+   justify-content: center;
+   align-items:center;
+   
+}
+.navbar ul, li, a{
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    color:rgb(75, 3, 39);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.contenedor {
+    max-width: 100%;
+    margin: 3rem auto;
+    text-align: center;
+    color: rgb(75, 3, 39);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.container h2{
+    font-size: 1.5rem;
+    color:rgb(75, 3, 39);
+}
+
+.container p{
+    font-size: 1rem;
+    color:rgb(75, 3, 39);
+   
+}
+.images {
+    display: flex;
+    gap: 20px;
+}
+
+.images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.images img:hover {
+    opacity: 0.8;
+}
+
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+ }
+ footer ul {
+    color: rgb(75, 3, 39);
+    text-decoration: none;
+    list-style: none;
+ }
+footer h3{
+    color: rgb(75, 3, 39);
+}
+footer img{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items:center;
+}
+/* Media Query para moviles */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        padding: 12px 20px;
+        font-size: 1.2rem;
+    }
+
+    .container h2 {
+        font-size: 1.8rem;
+    }
+
+    .container p {
+        font-size: 1.1rem;
+    }
+
+    .images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer h3 {
+        font-size: 1.8rem;
+    }
+
+    footer img {
+        width: 60px;
+        height: 60px;
+    }
+
+    footer ul {
+        flex-direction: column;
+    }
+
+    footer ul li {
+        margin-bottom: 0.5rem;
+    }
+}
+
+  
