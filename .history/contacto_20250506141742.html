@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecobelleza natur</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/contacto.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contacto.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,9 +23,6 @@
             <li><a href="contacto.html">Contacto</a></li>
         </ul>
      </nav>
-     <main class="contenedor">
-        <div id="dateTimeDisplay" class="date-container">Cargando...</div>
-     </main>
  
      <form action="#" target="" method="get" name="formDatosPersonales">
 
@@ -43,11 +40,8 @@
     
         <label for="mensaje">Mensaje</label>
         <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
-     
-        <input type="checkbox" id="acceptTerms">
-        <label for="acceptTerms"><a href="#">Acepto la Política de Privacidad</a></label>
-         
-         <button type="submit" id="submitBtn" disabled>Entrar</button>
+        <input type="checkbox" id="cbox1" value="first_checkbox" /> acepto las condiciones</label>
+        <input type="submit" name="enviar" value="enviar datos"/>
     </form>
       
     
@@ -60,6 +54,5 @@
          <li><a href="textos legales"></a>Textos legales</li>
        </ul>
      </footer>
-     <script src="script.js"></script>
  </body>
  </html>
